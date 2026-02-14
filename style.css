@@ -1,0 +1,83 @@
+/* Sets the background color for the whole page and picks a clean font */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff5f8;
+    margin: 0;
+    text-align: center;
+}
+
+/* Colors the header with a vibrant pink and white text */
+header {
+    background-color: #ff4081;
+    color: white;
+    padding: 20px;
+}
+
+/* Centers the main content box and adds a subtle shadow */
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Styles the input box where users type their names */
+input {
+    padding: 10px;
+    width: 70%;
+    border: 2px solid #ff4081;
+    border-radius: 5px;
+}
+
+/* Styles the buttons with a complementary blue color */
+button {
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Makes the button slightly darker when the mouse hovers over it */
+button:hover {
+    background-color: #0097a7;
+}
+
+/* Specifically styles the Draw button to be larger and pink */
+#drawButton {
+    background-color: #ff4081;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+}
+
+/* Removes bullet points from our participant list */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style for the winner text to make it stand out */
+#winnerDisplay {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff4081;
+}
+
+/* Style for the new Reset button with the requested blue color */
+#resetButton {
+    background-color: #007bff;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    margin-left: 10px; /* Adds a little space between the two buttons */
+}
+
+/* Hover state for the Reset button using the darker blue */
+#resetButton:hover {
+    background-color: #1367c0;
+}
